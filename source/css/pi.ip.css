@@ -1,0 +1,96 @@
+.clearfix:before,
+.clearfix:after{
+  display:table;content:" "
+}
+.clearfix:after{
+  clear:both
+}
+
+.pi_ip_widget_wrapper .thumbs {
+    text-align: left;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.pi_ip_widget_wrapper .thumbs .transition {
+    display: inline-block;
+    padding: 4px;
+    width: 33.3333333333%;
+    float: left;
+    list-style: none;
+}
+.pi_ip_widget_wrapper li a {
+  position: relative;
+  display: block;
+  color: #898889;
+}
+
+
+
+.pi_ip_widget_wrapper li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,.5);
+  top: 0; left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pi_ip_widget_wrapper li:hover a:after {
+  opacity: 1;
+}
+.pi_ip_widget_wrapper li img {
+  width: 100%;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-1 .transition {
+  width: 100%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-2 .transition {
+  width: 50%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-3 .transition {
+  width: 33.3333333333%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-4 .transition {
+  width: 25%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-5 .transition {
+  width: 20%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-6 .transition {
+  width: 16.6666667%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-7 .transition {
+  width: 14.2857143%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-8 .transition {
+  width: 12.5%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-9 .transition {
+  width: 11.1111111111%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-10 .transition {
+  width: 10%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-11 .transition {
+  width: 9.09090909%;
+  float: left;
+}
+.pi_ip_widget_wrapper .thumbs.pi-number-of-items-12 .transition {
+  width: 8.33333333%;
+  float: left;
+}
